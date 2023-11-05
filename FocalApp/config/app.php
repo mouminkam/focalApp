@@ -185,9 +185,9 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         
 
-        /*
-         * Package Service Providers...
-         */
+        
+         // Package Service Providers...
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Application Service Providers...
