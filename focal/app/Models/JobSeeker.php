@@ -18,7 +18,6 @@ class JobSeeker extends Model
             'address',
             'Date_of_birth',
              'gender',
-             'photo',
              'field_of_work',
             'job_level',
             'experience',
@@ -26,7 +25,10 @@ class JobSeeker extends Model
             'education_level',
             'current_status',
              'salary_range',
-            'resume_id', ]
+            'resume_id', ];
+
+          
+            
 
 }
 

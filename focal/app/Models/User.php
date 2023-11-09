@@ -46,5 +46,14 @@ class User extends Authenticatable
         'password' => 'hashed',
         'role_name' => 'array',
 
+        
+
     ];
+    
+   
+    
+    public function user_info()
+    {
+        return $this->hasOne(User_info::class);
+    }
 }
