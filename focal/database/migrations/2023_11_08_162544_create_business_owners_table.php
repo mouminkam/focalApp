@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('responsible_job_role');
             $table->integer('company_number');
             $table->string('website');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
